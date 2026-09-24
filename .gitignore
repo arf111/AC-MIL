@@ -216,3 +216,9 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Model checkpoints (see config.py's model_path) — large binaries, never commit
+model/saved_models/
+*.pth
+*.ckpt
+.vscode/
